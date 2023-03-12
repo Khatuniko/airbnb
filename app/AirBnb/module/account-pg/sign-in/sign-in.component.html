@@ -1,0 +1,61 @@
+<div  class="modal custom fade"  id="login" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered " style="background-color: #fff;">
+    <div class="modal-content">
+       
+
+<form  class="form" #form="ngForm" (ngSubmit)="onFormSubmit(form)">
+
+ 
+<h1 class="form__header">Sign in<span type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></span></h1>
+ <div class="wrapper">
+  <div class="form-floating mb-3">
+    <input ngModel name="email" type="text" class="form-control name shadow-none" id="email" placeholder="email" >
+    <label for="email">Email</label>
+
+  </div>
+ 
+<p class="input__wrapper__text">Make sure it matches the name on your government ID.</p>
+</div>
+
+
+<div class="wrapper">
+
+
+<div class="form-floating mb-3">
+  <input  ngModel name="password"  type="password" class="form-control shadow-none" NgModel placeholder="password" id="password" maxlength="8" required>
+  <label for="password">Password</label>
+
+</div>
+
+
+<p class="input__wrapper__text">We'll email you trip confirmations and receipts. <a  data-bs-toggle="modal" href="#signup" class="signup">Signup</a></p>
+
+</div>
+
+<button type="submit"
+
+data-bs-dismiss="modal"
+class="btn form__button"   >Login</button>
+
+
+
+<div class="form__line">or</div>
+<app-sign-in-facebook></app-sign-in-facebook>
+<app-sign-in-google></app-sign-in-google>
+
+<!-- <button class="form__button"><span><img src="assets/images/facebook-logo.png" alt="" width="20px"> Continue with Facebook</span> </button>
+<button class="form__button"><span><img src="assets/images/google-logo.png" alt="" width="20px"> Continue with Google</span></button> -->
+
+</form>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+

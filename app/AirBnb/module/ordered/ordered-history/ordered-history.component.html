@@ -1,0 +1,40 @@
+
+
+<section>
+    <article>
+        <h1>Trips</h1>
+          <div class="card">
+            <div class="card-body">
+              <h2>No trips booked...yet!</h2>
+              <p class="card-text">Time to dust off your bags and start planning your next adventure</p>
+              <a href="#" class="btn btn-primary btn-lg">Start searching</a>
+            </div>
+            <div class="image">
+                <img src="https://a0.muscache.com/im/pictures/d727f355-3f10-44b5-9750-d1efca2438fc.jpg?im_w=720">
+            </div>
+          </div>
+    </article>
+    <br>
+
+  <div class="history">
+    <h2>Where you've been</h2>
+    <div class="past col-md-3 d-flex justify-content-between">
+      <div>
+        <img [src]="reservedHotel.img">
+      
+      </div>
+      <div class="info">
+        <h5><b>{{reservedHotel.name}}</b></h5>
+        <p> check in :  {{reservedHotel.inMonth}} {{reservedHotel.inDay}} </p>
+        <p> check out :  {{reservedHotel.outMonth}} {{reservedHotel.outDay}} </p>
+        <p>price: {{reservedHotel.price}}</p>
+      
+      </div>
+    </div>
+    <hr>
+  </div>
+  <p>Can't find your reservation here?<span>Visit the Help Center</span></p>
+
+
+</section>
+

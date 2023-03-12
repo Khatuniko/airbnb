@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;}
+body { margin: 0;  font-family: 'AirbnbCereal_W_Md', Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: 'AirbnbCereal_W_Md';
+    src: url('assets/fonts/AirbnbCereal_W_Md.eot');
+    src: url('assets/fonts/AirbnbCereal_W_Md.eot') format('embedded-opentype'),
+         url('assets/fonts/AirbnbCereal_W_Md.woff2') format('woff2'),
+         url('assets/fonts/AirbnbCereal_W_Md.woff') format('woff'),
+         url('assets/fonts/AirbnbCereal_W_Md.ttf') format('truetype'),
+         url('assets/fonts/AirbnbCereal_W_Md.svg#AirbnbCereal_W_Md') format('svg');
+}
+
+
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+// modal scroll
+  html { 
+    overflow-y: scroll!important;
+  }
+.modal-open {
+    padding-right: 0 !important;
+  }
+
+ 
+
+
+
+
+// carusel styles
+*{
+    font-family: 'AirbnbCereal_W_Md';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body .owl-carousel .owl-nav{
+    margin-top: -53.5px!important;
+    position: relative;
+    width: 100%!important;
+    position: absolute!important;
+    display: inline!important;
+
+}
+.owl-prev{
+    background-color: #fff!important;
+    position: absolute;
+    border-radius: 50%!important;
+    width: 28px;
+    height: 28px;
+    left: -4px;
+    border: 0.5px solid #0000004d;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    
+}
+
+.owl-next{
+    position: relative;
+    position: absolute;
+    right: -4px;
+    background-color: #fff!important;
+    border-radius: 50%!important;
+    width: 28px;
+    height: 28px;
+    border: 0.5px solid #0000004d;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+
+.owl-next:hover ,.owl-prev:hover {
+    transform: scale(1.04);
+}
+
+.arrow{
+    width: 10px!important;
+}
+
+.arrowR{
+    transform: rotate(180deg);
+}
+.slider__slide__name{
+    border-bottom: 2px solid transparent;
+    padding: 0 0 12px 0;
+    margin: 0!important;
+    max-width: 500px!important;
+    white-space: nowrap;
+}
+.slide:hover .slider__slide__name{
+    color:#000;
+    border-bottom: 2px solid #ddd!important;
+}
+
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
